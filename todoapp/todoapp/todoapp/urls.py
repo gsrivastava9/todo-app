@@ -21,4 +21,5 @@ from todo import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^items/', views.ItemList.as_view()),
+    url(r'^items/create', views.ItemList.as_view()),
 ]
